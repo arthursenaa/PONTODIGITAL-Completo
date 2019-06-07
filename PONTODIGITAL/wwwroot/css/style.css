@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#banner{
+    background-color: #005eb8;
+}
+.menu{
+    /* border: #ffffff;
+    border-style: solid;
+    border-width: thick; */
+    width: 100%; 
+    background-color: #2c2cc5;
+    margin-top: -1.2em;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.menu ul h1{
+    margin-left: -3em;
+    margin-top: -5%;
+    color: #ffffff;
+}
+.menu ul a{
+    margin-top: 5%;
+}
+.botao_menu{
+    display: none;
+    padding: 0.8em;
+    margin-right: 1em;
+    color: #fff;
+    background: #2c2cc5;
+    width: 3em;
+    border-style: solid;
+    border-color: #fff;
+    border-width: thick; 
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.active{
+    display: block;
+}
+
+/* .bann nav ul{
+    flex-direction: column;
+} */
+
+.bann nav a{
+    color: #ffffff;
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    padding: 0.5em 1em;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header > div >img{
+    width: 19em;
+    height: 24em;
+    margin-top: 1em;
+    margin-left: 13%;
+}
+
+.login{
+    background-color: #f3a720;
+    margin-left: 65%;
+    width: 30%;
+    height: 16em;
+    text-align: center;
+    margin-top: -26em;
+    border:0.5em solid #005eb8;
+}
+
+.login h2{
+    margin-top: -0.5em;
+}
+.login input{
+    background-color: #005eb8;
+    width: 80%;
+    text-align: center;
+    height: 2em;
+}
+
+.login button{
+    background-color: #005eb8;
+    width: 40%;
+}
+
+#produtos{
+    margin-left: 3%;
+}
+
+.produto{
+    display: flex;       
+}
+.produto img{
+    width: 95%;
+    height: 110%;
+    margin-left: 5%;
+    margin-top: -3em;
+}
+
+.retangulo{
+    background-color: #005eb8;
+    width: 30%;
+    height: 3em;
+    margin-top: 6em;
+}
+
+.texto{
+    width: 50%;
+    font-size: 1.25em;
+}
+
+.texto > a{
+    margin-left: 45%;
+    /* text-decoration: none; */
+    color: #000000;
+}
+
+.imagem{
+    width: 50%;
+    /* overflow: hidden; */
+}
+
+#navegacao{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8%;
+    color:#000000;
+}
+
+.planos{
+    width: 25%;
+    text-align: center;
+    background-color: #005eb8;
+    height: 1.7em;
+}
+
+.planos a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.faq{
+    width: 25%;
+    text-align: center;
+    background-color: #005eb8;
+    height: 1.7em;
+}
+
+.faq a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.contato{
+    width: 25%;
+    text-align: center;
+    background-color: #005eb8;
+    height: 1.7em;
+}
+
+.contato a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#somos{
+    flex-wrap: wrap;
+}
+
+.retanguloazul{
+    background-color: #2c2cc5;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 1.5%;
+    height: 2em;
+}
+
+.quadradoazul{
+    background-color: #005eb8;
+    margin-left: 3%;
+    margin-right: 1.5%;
+    font-size: 1.25em;
+}
+
+.quadradoazul p{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+iframe{
+    width: 98%;
+    margin-left: 1%;
+}
+
+#planosss{
+    margin-left: 1.5%;
+    
+}
+
+#planosss h2{
+    text-align: center;
+}
+
+.container_planos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container_planos > div{
+    background-color: #005eb8;
+    text-align: center;
+    width: 17%;
+    border-style: solid;
+    border-width: thick;
+    border-color: #a1a1a1;
+}
+
+.miinii{
+    background-color: #2c2cc5; 
+}
+
+footer{
+    background-color: #005eb8;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    height: 1.75em;
+    justify-content: center;
+}
+
+footer a{
+    color: #000000;
+}
+
+.comprar{
+    background-color: #2c2cc5;
+    width: 75%;
+}
+
+.aa1{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.quadradoazul > a {
+    margin-left: 45%;
+    color: #000000;
+    margin-top: -0.5em;
+}
+
+@media(max-width:1259px){
+    .produto{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .produto .imagem {
+        width: 100%;
+        height: 100%;
+        margin-right: 2%;
+        overflow: hidden;
+        margin-left: -2%;
+    }
+
+    .produto .texto {
+        width: 100%;
+        margin-left: 2.7%;
+        margin-right: 2%;
+    }
+
+    .content .comprar{
+    align-items: flex-end;
+    }
+    
+    .retangulo{
+        width:97%;
+        margin-left: 1%;
+    }
+    .texto h2{
+        text-align: center;
+    }
+    .menu ul h1{
+        margin-left: 1em;
+    }
+    .login{
+        margin-left: 48%;
+        width: 50%;
+    }
+    header > div >img{
+        margin-left: 6%;
+    }
+}
+
+@media(max-width:720px){
+    
+    .botao_menu{
+        display: block;
+    }
+    #planosss .content{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .content .plano{
+        width: 48%;
+        margin-top: 3%; 
+    }
+
+    .content .plano4{
+        width: 98%;
+    }
+    header > div >img{
+        margin-left: 6%;
+    }
+    .login{
+        width: 45%;
+        margin-left: 53%;
+    }
+    #menu{
+        width: 1.5em;
+        height: 1.25em;
+        text-align: center;
+        background-color: #a1a1a1;
+        margin-left: 3%;
+        /* z-index: 3; */
+        transition: linear 2s;
+    }
+    .menu {
+        display: none;
+    }
+}
+@media(max-width:520px){
+    .divisao{
+        margin-top: -7%;
+    }
+
+    .content{
+        flex-wrap: wrap;
+        width:100%;
+    }
+
+    .plano{
+        width: 85%;
+    }
+    header > div >img{
+        margin-left: -1.5em;
+        width: 16em;
+        height: 20em;
+    }
+    .login{
+        width: 55%;
+        margin-left: 45%;
+        margin-top: -24em;
+    }
+}

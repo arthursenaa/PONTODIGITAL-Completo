@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/css/cadastrar.css">
+</head>
+<body>
+    <main>
+        <nav>
+            <ul>
+                <li><a href='@Url.Action("Index", "Home")'>Home</a></li>
+            </ul>
+            <img src="~/img/Sem Título-1.png" alt="Logo">
+        </nav>
+        <br>
+        <br>
+        <section>
+            <div class="big">
+                <h1>Cadastrar</h1>
+                <form method="POST" action="Cadastrar/Cadastrar">
+
+                <div class="mini">
+                    <label for="text">Nome</label>
+                    <br>
+                    <input type="text" name="nome" required>
+                    <br>
+                    <label for="text">E-mail</label>
+                    <br>
+                    <input type="email" name="email" required>
+                    <br>
+                    <label for="Senha">Senha</label>
+                    <br>
+                    <input type="password" name="senha">
+                    <br>
+                    <label for="tel">Telefone</label>
+                    <br>
+                    <input type="tel" name="tel">
+                    <br>
+                    <label for="data">Data De Nascimento</label>
+                    <br>
+                    <input type="date" name="data">
+                    <!-- <input type="file" name="foto"> -->
+
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar"/>
+                </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
